@@ -7,7 +7,7 @@
 //
 
 #import "ZYViewController.h"
-
+#import "UpVersionMethod.h"
 @interface ZYViewController ()
 
 @end
@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [[UpVersionMethod shareView] upVersionisMessage:YES WithAPPID:@"1433894811"];
 }
 
 - (void)didReceiveMemoryWarning

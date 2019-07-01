@@ -1,0 +1,28 @@
+PODS:
+  - ZYCategoryKit (0.1.4):
+    - ZYImageModule
+  - ZYImageModule (0.1.2)
+  - ZYUpVersion (0.1.1):
+    - ZYCategoryKit (~> 0.1.4)
+
+DEPENDENCIES:
+  - ZYCategoryKit (~> 0.1.4)
+  - ZYUpVersion (from `../`)
+
+SPEC REPOS:
+  https://github.com/zhengya123/ZYModule.git:
+    - ZYCategoryKit
+    - ZYImageModule
+
+EXTERNAL SOURCES:
+  ZYUpVersion:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZYCategoryKit: 042f2c92bec25c4380cb884f952aac3d974539e1
+  ZYImageModule: 1b6ecc6b417a661d9cfc49b57d3253e080dbc209
+  ZYUpVersion: d985018986d4f083ce68bc055d19bb0fa7dd8795
+
+PODFILE CHECKSUM: 7213d4f43599d05795c0e6f52181dd01a6074174
+
+COCOAPODS: 1.7.2
